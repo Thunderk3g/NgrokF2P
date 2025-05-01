@@ -1,0 +1,51 @@
+Local File Transfer System PRD
+
+Project Overview:
+Create a web-based local file transfer system that allows users on the same WiFi network to easily share files between devices.
+
+Key Features:
+1. Web Interface
+- Simple and intuitive UI for file upload and download
+- Drag and drop file upload support
+- List of available files for download
+- File size and type information display
+
+2. Server Features
+- Local server that runs on user's machine
+- Automatic IP address detection for easy sharing
+- Support for multiple simultaneous connections
+- Progress indicators for file transfers
+- Proper error handling
+
+3. File Management
+- Support for multiple file types
+- Temporary file storage management
+- Basic file operations (delete, download)
+- File size limitations and warnings
+
+4. Network Features
+- Easy to share local network URL
+- QR code for quick mobile access
+- Network status indicator
+- Connection handling
+
+Technical Requirements:
+1. Backend
+- Node.js/Express.js server
+- File system management
+- WebSocket support for real-time updates
+
+2. Frontend
+- React.js for UI components
+- Responsive design for mobile/desktop
+- Modern UI framework (Material-UI/Tailwind)
+
+3. Security
+- Basic file validation
+- Network-level security (local network only)
+- File sanitization
+
+4. Performance
+- Efficient file chunking for large files
+- Progress tracking
+- Connection status monitoring 
